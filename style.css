@@ -273,3 +273,226 @@ span {
 }
 
 /*container styling end*/
+
+/*content section styling start*/
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.content .items-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 63%;
+}
+
+.content .items-btn .items {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+.content .items-btn .items .repo-nav-btn {
+    color: #24292f;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.content .items-btn .items .repo-nav-btn:hover {
+    background-color: #f6f8fa;
+}
+
+.content .items-btn .items .repo-nav-btn:first-child {
+    border: 0.25px solid #d0d7de;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.content .items-btn .items .repo-nav-btn:last-child {
+    border: 0.25px solid #d0d7de;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.content .items-btn .items .repo-nav-btn>i {
+    margin-right: 5px;
+}
+
+.content .items-btn .items .repo-nav-btn>span {
+    background-color: rgba(175, 184, 193, 0.2);
+    border-radius: 30px;
+    margin: 0px 5px;
+}
+
+.content .items-btn .btn button {
+    color: #ffffff;
+    background-color: #2da44e;
+    border: 0.5px solid rgba(27, 31, 36, 0.15);
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.content .items-btn .btn button:hover {
+    background-color: #2c974b;
+}
+
+.content .tasks {
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 0.5px solid #d0d7de;
+    border-radius: 6px;
+}
+
+.content .tasks .op-cl {
+    background-color: #f6f8fa;
+    border-bottom: 0.5px solid #d0d7de;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.content .tasks .op-cl a {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #57606a;
+    font-weight: 500;
+    margin-right: 16px;
+}
+
+.content .tasks .op-cl>a:first-child {
+    font-weight: 600;
+    color: #24292f;
+}
+
+.content .tasks .task {
+    display: flex;
+    flex-direction: row;
+}
+
+.content .tasks .task:hover {
+    background-color: #f6f8fa;
+}
+
+.content .tasks .task .rows {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid #d0d7de;
+    width: 100%;
+    padding: 8px;
+}
+
+.content .tasks .task .rows .row_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 16px;
+}
+
+.content .tasks .task .rows .row_1 p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #24292f;
+    line-height: 1.5;
+    margin: 0 5px;
+}
+
+.content .tasks .task .rows .row_1 p:hover {
+    color: #0969da;
+}
+
+.content .tasks .task .rows .row_1 a {
+    padding: 0 7px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    border-radius: 2em;
+    color: #ffffff;
+    margin: 0 4px;
+}
+
+.content .tasks .task .rows .row_1 .red {
+    background-color: rgb(252, 41, 41);
+}
+
+.content .tasks .task .rows .row_1 .green {
+    background-color: #009800;
+}
+
+.content .tasks .task .rows .row_1 .blue {
+    background-color: #0d7bde;
+}
+
+.content .tasks .task .rows .row_1 .blue-darker {
+    background-color: #0052cc;
+}
+
+.content .tasks .task .rows .row_1 .blue-dark {
+    background-color: rgb(80, 107, 148);
+}
+
+.content .tasks .task .rows .row_1 .light-blue {
+    background-color: rgb(199, 222, 248);
+    color: #24292f;
+}
+
+.content .tasks .task .rows .row_1 .vif-blue {
+    background-color: rgb(0, 82, 204);
+}
+
+.content .tasks .task .rows .row_1 .yellow {
+    background-color: rgb(254, 242, 192);
+    color: #24292f;
+}
+
+.content .tasks .task .rows .row_1 .purple {
+    background-color: rgb(199, 222, 248);
+    color: #24292f;
+}
+
+.content .tasks .task .rows .row_1 .pink {
+    background-color: #cc317c;
+}
+
+.content .tasks .task .rows .row_1 .dark-pink {
+    background-color: #990099;
+}
+
+.content .tasks .task .rows .row_1 .dark-green {
+    background-color: rgb(0, 107, 117);
+}
+
+.content .tasks .task .rows .row_1>p>span {
+    padding: 2px 4px;
+    font-size: .9em;
+    font-weight: 600;
+    background-color: rgba(175, 184, 193, 0.2);
+    border-radius: 6px;
+    color: #24292f;
+}
+
+.content .tasks .task .rows .row_2 p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #57606a;
+    padding: 0px 16px 4px 16px;
+    margin: 0 5px;
+}
+
+.content .tasks .task .rows .row_2 p .pseudo:hover {
+    color: #0969da;
+}
+
+/*content section styling done*/
