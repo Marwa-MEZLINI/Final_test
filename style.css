@@ -139,6 +139,7 @@ header .navbar .navigation_links a:hover {
 .navbar .header-items #avatar>i {
     color: #ffffff;
 }
+
 /*header styling end*/
 /*container styling start*/
 .repo-container {
@@ -496,3 +497,59 @@ span {
 }
 
 /*content section styling done*/
+/*footer styling done*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 25px;
+}
+
+.foot {
+    width: 65%;
+    border-top: 0.5px solid #d0d7de;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 40px;
+    font-size: 12px;
+    padding-bottom: 8px;
+    color: #57606a;
+}
+
+footer .rights {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 80px;
+}
+
+footer .foot .rights>a>i {
+    color: #6e7781;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+footer .foot .rights>a>i:hover {
+    color: #57606a;
+}
+
+footer .more-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer .more-links>a {
+    color: #0969da;
+    margin-right: 40px;
+}
+
+footer .more-links>a:hover {
+    text-decoration: underline;
+}
+
+/*footer styling done*/
