@@ -506,6 +506,19 @@ span {
     color: #0969da;
 }
 
+.content .tasks .task .not-treated>i {
+    display: none;
+    color: #2da44e;
+    padding-top: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+
+.content .tasks .task .treated>i{
+    display: block;
+} 
+
 /*content section styling done*/
 
 /*footer styling done*/
