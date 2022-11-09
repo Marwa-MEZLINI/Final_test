@@ -1,5 +1,5 @@
 body {
-    width: 100vw;
+    width: 99vw;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -10,7 +10,7 @@ a {
 
 /*header styling start*/
 header {
-    width: 100vw;
+    width: 97.5%;
     background-color: #24292f;
     margin: 0;
     display: flex;
@@ -144,6 +144,7 @@ header .navbar .navigation_links a:hover {
 
 /*container styling start*/
 .repo-container {
+    width: 97.5%;
     background-color: #f6f8fa;
     padding-top: 16px;
     font-size: 14px;
@@ -279,6 +280,7 @@ span {
 
 /*content section styling start*/
 .content {
+    width: 97.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -289,7 +291,7 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 63%;
+    width: 64%;
 }
 
 .content .items-btn .items {
@@ -390,7 +392,7 @@ span {
     background-color: #f6f8fa;
 }
 
-.content .tasks .task>i{
+.content .tasks .task>i {
     color: #2da44e;
     padding-top: 18px;
     margin-left: 20px;
@@ -512,17 +514,18 @@ span {
     padding-top: 5px;
     margin-left: 20px;
     font-size: 20px;
-    
+
 }
 
-.content .tasks .task .treated>i{
+.content .tasks .task .treated>i {
     display: block;
-} 
+}
 
 /*content section styling done*/
 
 /*footer styling done*/
 footer {
+    width: 97.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -555,7 +558,8 @@ footer .foot .rights>a>i {
     font-size: 24px;
     margin-right: 15px;
 }
-footer .foot .rights>a>i:hover{
+
+footer .foot .rights>a>i:hover {
     color: #57606a;
 }
 

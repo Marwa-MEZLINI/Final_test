@@ -1,5 +1,5 @@
 body {
-    width: 100vw;
+    width: 99vw;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -10,7 +10,7 @@ a {
 
 /*header styling start*/
 header {
-    width: 100vw;
+    width: 97.5%;
     background-color: #24292f;
     margin: 0;
     display: flex;
@@ -144,6 +144,7 @@ header .navbar .navigation_links a:hover {
 
 /*navigation section styling*/
 .navigation {
+    width: 97.5%;
     padding-top: 60px;
     display: flex;
     flex-direction: column;
@@ -188,6 +189,7 @@ header .navbar .navigation_links a:hover {
 
 /*main section styling start*/
 .content-container {
+    width: 97.5%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -298,6 +300,11 @@ aside>p>a>span {
     text-align: center;
     font-weight: 600;
     font-size: 20px;
+    margin-top: 0;
+}
+
+.content .about .description>ul {
+    margin-top: 45px;
 }
 
 .content .about .description>ul>li {
@@ -438,7 +445,7 @@ aside>p>a>span {
     display: flex;
     flex-direction: row;
     border: 0.5px solid #d0d7de;
-    width: 55%;
+    width: 60%;
     padding: 10px;
     border-radius: 6px;
 }
@@ -507,6 +514,7 @@ aside>p>a>span {
     border-radius: 50em;
     border: 6px solid transparent;
     margin-left: 35px;
+    margin-right: 20px;
 }
 
 .content .about .git-stats .eval>p {
@@ -518,10 +526,11 @@ aside>p>a>span {
 
 /*footer styling done*/
 footer {
+    width: 97.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 25px;
 }
 
