@@ -142,8 +142,46 @@ header .navbar .navigation_links a:hover {
 
 /*header styling end*/
 
+/*navigation section styling*/
+.navigation {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.5px solid #d0d7de;
+}
 
+.navigation .navigation-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 60px;
+}
 
+.navigation .navigation-items .repo-nav-btn {
+    color: #24292f;
+    padding: 15px 10px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 500;
+    margin: 0px 5px;
+}
+
+.navigation .navigation-items .repo-nav-btn:hover {
+    border-bottom: 2px solid #fd8c73;
+    font-weight: 600;
+}
+
+.navigation .navigation-items .repo-nav-btn>i {
+    margin-right: 5px;
+}
+
+.navigation .navigation-items .repo-nav-btn>span {
+    background-color: rgba(175, 184, 193, 0.2);
+    border-radius: 30px;
+    margin: 0px 5px;
+}
 
 /*footer styling done*/
 footer {
@@ -179,7 +217,8 @@ footer .foot .rights>a>i {
     font-size: 24px;
     margin-right: 15px;
 }
-footer .foot .rights>a>i:hover{
+
+footer .foot .rights>a>i:hover {
     color: #57606a;
 }
 
