@@ -182,6 +182,70 @@ header .navbar .navigation_links a:hover {
     border-radius: 30px;
     margin: 0px 5px;
 }
+/*navigation section styling end*/
+
+/*main section styling start*/
+.content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/*main/aside section styling start*/
+aside {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+aside>img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+aside>h3 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #57606a;
+    padding: 15px;
+}
+
+aside>button {
+    text-align: center;
+    color: #24292f;
+    border: 0.5px solid rgba(27, 31, 36, 0.15);
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 6px;
+}
+
+aside>p {
+    color: #57606a;
+    font-size: 16px;
+    font-weight: 500;
+} 
+
+aside>p>a {
+    color: #57606a;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+aside>p>a:hover{
+    color: #0969da;
+}
+
+aside>p>a>span {
+    font-weight: 600;
+}
+/*main/aside section styling end*/
+
+/*main section styling end*/
 
 /*footer styling done*/
 footer {
