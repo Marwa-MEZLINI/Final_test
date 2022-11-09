@@ -181,13 +181,16 @@ header .navbar .navigation_links a:hover {
     background-color: rgba(175, 184, 193, 0.2);
     border-radius: 30px;
     margin: 0px 5px;
+    padding: 5px 10px;
 }
+
 /*navigation section styling end*/
 
 /*main section styling start*/
 .content-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 /*main/aside section styling start*/
@@ -197,16 +200,19 @@ aside {
     align-content: center;
     text-align: center;
     padding: 0px 20px;
+    margin-right: 20px;
+    position: relative;
+    top: -25px;
 }
 
 aside>img {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
 
 aside>h3 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
     line-height: 24px;
     color: #57606a;
@@ -217,18 +223,23 @@ aside>button {
     text-align: center;
     color: #24292f;
     border: 0.5px solid rgba(27, 31, 36, 0.15);
-    padding: 5px 16px;
+    padding: 10px 16px;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
     border-radius: 6px;
+    background-color: #f6f8fa;
+}
+
+aside>button:hover {
+    background-color: rgb(239, 239, 239);
 }
 
 aside>p {
     color: #57606a;
     font-size: 16px;
     font-weight: 500;
-} 
+}
 
 aside>p>a {
     color: #57606a;
@@ -236,14 +247,272 @@ aside>p>a {
     font-weight: 500;
 }
 
-aside>p>a:hover{
+aside>p>a:hover {
     color: #0969da;
 }
 
 aside>p>a>span {
     font-weight: 600;
 }
+
 /*main/aside section styling end*/
+
+/*main/content section styling start*/
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 0.5px solid #d0d7de;
+    border-radius: 6px;
+    margin: 30px 40px;
+    width: 45%;
+}
+
+.content .title {
+    margin: 40px 30px 0px 30px;
+    border-bottom: 0.5px solid #d0d7de;
+    text-align: center;
+}
+
+.content .title>p {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 35px;
+    margin: 0px;
+}
+
+.content .about {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.content .about .description {
+    font-size: 16px;
+    font-weight: 500;
+    color: #24292f;
+}
+
+.content .about .description>p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.content .about .description>ul>li {
+    line-height: 1.75;
+}
+
+.content .about .description>ul>li>a {
+    color: #0969da;
+}
+
+.content .about .social-links>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #24292f;
+}
+
+.content .about .social-links>a {
+    font-size: 32px;
+    color: #24292f;
+    padding-right: 10px;
+}
+
+.content .about .technologies {
+    margin-top: 20px;
+}
+
+.content .about .technologies .languages>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #24292f;
+}
+
+.content .about .technologies .languages .logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content>.about>.technologies>.languages>.logos>img {
+    height: 100px;
+}
+
+.content>.about>.technologies>.languages>.logos>img:nth-child(2) {
+    height: 115px;
+}
+
+.content>.about>.technologies>.languages>.logos>img:nth-child(4) {
+    height: 80px;
+    align-self: flex-end;
+}
+
+.content .about .technologies .most-used {
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #d0d7de;
+    width: 40%;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.content .about .technologies .most-used>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0969da;
+    text-align: center;
+}
+
+.content .about .technologies .most-used .chart {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.content .about .technologies .most-used .chart>div:nth-child(1) {
+    height: 5px;
+    background-color: #e34c29;
+    width: 150px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.content .about .technologies .most-used .chart>div:nth-child(2) {
+    height: 5px;
+    background-color: #563d7c;
+    width: 120px;
+}
+
+.content .about .technologies .most-used .chart>div:nth-child(3) {
+    height: 5px;
+    background-color: #f1e05a;
+    width: 30px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.content .about .technologies .most-used .chart-tags {
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    height: 75px;
+    line-height: 1.5;
+}
+
+.content .about .technologies .most-used .chart-tags>p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 10px 5px 0px;
+    color: #24292f;
+}
+
+.content .about .technologies .most-used .chart-tags #red>i {
+    color: #e34c29;
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.content .about .technologies .most-used .chart-tags #purple>i {
+    color: #563d7c;
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.content .about .technologies .most-used .chart-tags #yellow>i {
+    color: #f1e05a;
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.content .about .technologies .most-used .chart-tags #orange>i {
+    color: #ee9c66;
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.content .about .git-stats {
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid #d0d7de;
+    width: 55%;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.content .about .git-stats .stats {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.content .about .git-stats .stats>h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0969da;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.content .about .git-stats .stats .key-value {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.content .about .git-stats .stats .keys {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    margin-right: 25px;
+}
+
+.content .about .git-stats .stats .keys>p {
+    color: #24292f;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content .about .git-stats .stats .keys>p>i {
+    color: #714ea5;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.content .about .git-stats .stats .values {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    margin-left: 20px;
+}
+
+.content .about .git-stats .stats .values>p {
+    color: #24292f;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content .about .git-stats .eval {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, #6fa2db 35%, #0969da, #0969da) border-box;
+    border-radius: 50em;
+    border: 6px solid transparent;
+    margin-left: 35px;
+}
+
+.content .about .git-stats .eval>p {
+    font-size: 20px;
+    font-weight: 600;
+}
 
 /*main section styling end*/
 
