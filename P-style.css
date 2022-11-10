@@ -167,11 +167,34 @@ header .navbar .navigation_links a:hover {
     text-align: center;
     font-weight: 500;
     margin: 0px 5px;
+    height: 60px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: max-content;
 }
 
 .navigation .navigation-items .repo-nav-btn:hover {
     border-bottom: 2px solid #fd8c73;
     font-weight: 600;
+    padding: 15px 8px 0 10px;
+}
+
+.navigation .navigation-items>.repo-nav-btn:nth-child(1):hover {
+    border-bottom: 2px solid #fd8c73;
+    font-weight: 600;
+    padding: 15px 10px 0 8px;
+}
+
+.navigation .navigation-items>.repo-nav-btn:nth-child(1):hover {
+    border-bottom: 2px solid #fd8c73;
+    font-weight: 600;
+    padding: 15px 5px 0 5px;
+}
+
+.navigation .navigation-items>.repo-nav-btn:last-child:hover {
+    border-bottom: 2px solid #fd8c73;
+    font-weight: 600;
+    padding: 15px 8px 0 10px;
 }
 
 .navigation .navigation-items .repo-nav-btn>i {
