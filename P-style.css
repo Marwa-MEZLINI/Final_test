@@ -372,11 +372,21 @@ aside>p>a>span {
 
 .content>.about>.technologies>.languages>.logos>img:nth-child(2) {
     height: 115px;
+    position: relative;
+    left: -30;
+}
+
+.content>.about>.technologies>.languages>.logos>img:nth-child(3) {
+    position: relative;
+    left: -30px;
 }
 
 .content>.about>.technologies>.languages>.logos>img:nth-child(4) {
     height: 80px;
     align-self: flex-end;
+    position: relative;
+    top: -8px;
+    left: -37px;
 }
 
 .content .about .technologies .most-used {
